@@ -1,10 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Artists Theme</title>
+    <title>ESE5190 Final Project: Piano</title>
     <link>https://Team-Dingzhen.github.io/</link>
-    <description>Recent content on Hugo Artists Theme</description>
+    <description>Recent content on ESE5190 Final Project: Piano</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://Team-Dingzhen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).</copyright>
+    <lastBuildDate>Fri, 30 Dec 2022 02:43:43 -0500</lastBuildDate><atom:link href="https://Team-Dingzhen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about-us</title>
+      <link>https://Team-Dingzhen.github.io/about-us/</link>
+      <pubDate>Fri, 30 Dec 2022 02:43:43 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/about-us/</guid>
+      <description>Who are we? We are first-year graduate students at the University of Pennsylvania. We take the course E5190 Embedded Systems. Our professor is Professor Dalton Banks. We are Team Dingzhen.
+Contact us email: haolyou@seas.upenn.edu</description>
+    </item>
+    
+    <item>
+      <title>Team Review</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/team-review/</link>
+      <pubDate>Fri, 30 Dec 2022 01:56:37 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/team-review/</guid>
+      <description>Team member:
+Kezhen Yan
+Contribution: designing project, purposal writing, code writing, code debugging, compoents selection, writeup
+Haoliang You
+Contribution: designing project, purposal writing, code writing, welding, compoents selection, writeup
+Code Link</description>
+    </item>
+    
+    <item>
+      <title>Pio Explanation</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/pio-explanation/</link>
+      <pubDate>Fri, 30 Dec 2022 01:55:59 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/pio-explanation/</guid>
+      <description>When any key is held, the sensor will detect that and order to enable PWM’s output. PWM output the corresponding voltage through changing the duty cycle. The output voltage equals the virtual value of the sine voltage signal. Therefore, we can output different voltages through different duty cycles. On the other hand, the data of our project is all alive data, which means it does not rely on the external input.</description>
+    </item>
+    
+    <item>
+      <title>Reflections</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/reflections/</link>
+      <pubDate>Fri, 30 Dec 2022 01:55:00 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/reflections/</guid>
+      <description>This project is a very typical design and application of PWM part. If someone wants to have a deep understanding about this part, I strongly recommend to learn about this project. With the outputting of different frequencies, we can achieve much more than this simple piano. For example, in some certain controlling circuits which require different voltages, we can easily output the required voltages without using of some other circuits.</description>
+    </item>
+    
+    <item>
+      <title>Significant Issues and Something Satisfying</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/significant-issues-and-something-satisfying/</link>
+      <pubDate>Fri, 30 Dec 2022 01:54:28 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/significant-issues-and-something-satisfying/</guid>
+      <description>First, enabling APDS9960 and MPR121 with one I2C port. At first, I did not clearly figure out the relationship between these two sensors. However, after consulting Prof. Banks, I had more profound thought about this. These two sensors have different address, thus using the same clock and being initialized at the same time are allowed.</description>
+    </item>
+    
+    <item>
+      <title>Project Development</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/project-development/</link>
+      <pubDate>Fri, 30 Dec 2022 01:53:19 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/project-development/</guid>
+      <description>At the first stage, we just wanted to apply the gesture and proximity to real life. Put another way, maybe a parking alarm will be a good choice. However, a single parking alarm might be a little simple and I want to learn more functions about this QT PY 2040 board.</description>
+    </item>
+    
+    <item>
+      <title>Project Instructions</title>
+      <link>https://Team-Dingzhen.github.io/2022/12/project-instructions/</link>
+      <pubDate>Fri, 30 Dec 2022 01:50:26 -0500</pubDate>
+      
+      <guid>https://Team-Dingzhen.github.io/2022/12/project-instructions/</guid>
+      <description>As can be seen, the final project is a simple electronic piano, which is composed with some tone keys, a speaker, two sensors, and an embedded system board. How to play it? Similar to the normal pianos, you can play different tones while kicking different keys. Of course, you can also hold any key to play a continuous sound.</description>
+    </item>
+    
   </channel>
 </rss>
